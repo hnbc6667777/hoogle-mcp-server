@@ -16,3 +16,25 @@
 git clone <repository-url>
 cd hoogle-mcp-server
 # hoogle-mcp-server
+
+## 使用
+
+复制以下配置：
+
+``` json
+{
+  "mcpServers": {
+    "hoogle": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "（你的仓库路径）",
+        "run",
+        "main.py"
+      ]
+    }
+  }
+}
+
+
+```
