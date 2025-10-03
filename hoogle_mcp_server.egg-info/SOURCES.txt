@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+hoogle_mcp_server/__init__.py
+hoogle_mcp_server/main.py
+hoogle_mcp_server.egg-info/PKG-INFO
+hoogle_mcp_server.egg-info/SOURCES.txt
+hoogle_mcp_server.egg-info/dependency_links.txt
+hoogle_mcp_server.egg-info/entry_points.txt
+hoogle_mcp_server.egg-info/requires.txt
+hoogle_mcp_server.egg-info/top_level.txt

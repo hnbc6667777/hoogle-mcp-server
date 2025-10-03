@@ -1,0 +1,2 @@
+[console_scripts]
+hoogle-mcp-server = hoogle_mcp_server.main:main

@@ -1,3 +1,42 @@
+Metadata-Version: 2.4
+Name: hoogle-mcp-server
+Version: 0.1.0
+Summary: A Model Context Protocol (MCP) server for Hoogle (Haskell API search engine)
+Home-page: https://github.com/yourusername/hoogle-mcp-server
+Author: Your Name
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/hoogle-mcp-server
+Project-URL: Repository, https://github.com/yourusername/hoogle-mcp-server
+Project-URL: Issues, https://github.com/yourusername/hoogle-mcp-server/issues
+Keywords: mcp,hoogle,haskell,api,search
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mcp>=1.0.0
+Requires-Dist: fastmcp>=0.1.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: beautifulsoup4>=4.12.0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
 # Hoogle MCP Server
 
 一个 Model Context Protocol (MCP) 服务器，用于查询 Hoogle (Haskell API 搜索引擎)。

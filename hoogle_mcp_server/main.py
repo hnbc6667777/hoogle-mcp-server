@@ -87,6 +87,10 @@ def hoogle_search(query: str) -> str:
     except Exception as e:
         return f"搜索过程中出现错误: {str(e)}"
 
+def main():
+    """主函数入口"""
+    mcp.run(transport="stdio")
+
 # 运行服务器
 if __name__ == "__main__":
-    mcp.run(transport="stdio")
+    main()
