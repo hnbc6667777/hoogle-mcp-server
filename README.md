@@ -180,6 +180,24 @@ python main.py
 
 本项目采用 MIT 许可证。
 
+## 方式
+
+``` json
+{
+  "mcpServers": {
+    "hoogle": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "D:\\Users\\Administrator",
+        "run",
+        "main.py"
+      ]
+    }
+  }
+}
+```
+
 ## 相关链接
 
 - [Hoogle 官方网站](https://hoogle.haskell.org/)
